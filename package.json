@@ -1,0 +1,20 @@
+{
+  "author": "me",
+  "license": "me",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "mocha --timeout 10000"
+  },
+  "dependencies": {
+    "authenticator": "^1.1.5",
+    "dotenv": "^8.0.0",
+    "mongoose": "^5.6.7",
+    "twilio": "^3.33.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.0"
+  }
+}
